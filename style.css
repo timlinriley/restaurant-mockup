@@ -1,0 +1,100 @@
+body{
+    background-color: #382d2d;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav1, .nav2, .nav3, .nav4 {
+    margin: 1em;
+    font-size: 20px;
+    color: #ccc;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.restaurant{
+     /* border:solid red; */
+    width: 89%;
+    margin-left: 10px;
+}
+.blueBox{
+    /* border: solid blue; */
+    height: 80vh;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    width: 45%;
+    height: 45%;
+    /* border: solid yellow; */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.photos{
+    /* border: solid yellow; */
+    
+    align-content: center;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.contacts{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.apps, .din, .des, .bev {
+    margin: 1em;
+    font-size: 20px;
+    color: #ccc;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.apps:hover, .din:hover, .des:hover, .bev:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.item{
+    /* height: 100px; */
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    width: 75%;
+    color: #ccc;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    margin: 3em;
+    /* border: solid black; */
+}
+.name{
+/* border: solid red; */
+width: 50%;
+}
+.desc{
+/* border: solid yellow; */
+padding-top: 10px;
+}
+.price{
+    /* border: solid blue; */
+ width: 40%;
+text-align: right;
+/* border: solid black; */
+}
